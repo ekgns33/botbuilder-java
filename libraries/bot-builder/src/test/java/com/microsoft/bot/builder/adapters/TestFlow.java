@@ -314,7 +314,7 @@ public class TestFlow {
                     return e.getMessage();
                 }
 
-            }, ExecutorFactory.getExecutor()).thenApply(arg -> { // Assert Reply
+            }, ExecutorFactory.getAsyncExecutor()).thenApply(arg -> { // Assert Reply
                 int finalTimeout = Integer.MAX_VALUE;
                 if (isDebug())
                     finalTimeout = Integer.MAX_VALUE;

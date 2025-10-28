@@ -640,7 +640,7 @@ public class BotFrameworkAdapter extends BotAdapter
             }
 
             return responses;
-        }, ExecutorFactory.getExecutor());
+        }, ExecutorFactory.getAsyncExecutor());
     }
 
     /**

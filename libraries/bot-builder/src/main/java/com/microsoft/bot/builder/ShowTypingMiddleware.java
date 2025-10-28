@@ -111,7 +111,7 @@ public class ShowTypingMiddleware implements Middleware {
             } catch (InterruptedException e) {
                 // do nothing
             }
-        }, ExecutorFactory.getExecutor());
+        }, ExecutorFactory.getAsyncExecutor());
     }
 
     private static CompletableFuture<ResourceResponse[]> sendTypingActivity(

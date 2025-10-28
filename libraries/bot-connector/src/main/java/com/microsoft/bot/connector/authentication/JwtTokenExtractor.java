@@ -210,7 +210,7 @@ public class JwtTokenExtractor {
                 LOGGER.warn(ex.getMessage());
                 throw new AuthenticationException(ex);
             }
-        }, ExecutorFactory.getExecutor());
+        }, ExecutorFactory.getAsyncExecutor());
     }
 
     private X509Certificate decodeCertificate(String certStr) throws CertificateException {
