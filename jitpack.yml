@@ -1,0 +1,7 @@
+jdk:
+  - openjdk8
+before_install:
+  - sdk install java 8.0.292-open
+  - sdk use java 8.0.292-open
+install:
+  - mvn clean install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
