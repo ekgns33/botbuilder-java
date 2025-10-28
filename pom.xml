@@ -3,14 +3,14 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.microsoft.bot</groupId>
-  <artifactId>bot-java</artifactId>
+  <groupId>com.github.ekgns33</groupId>
+  <artifactId>botbuilder-java</artifactId>
   <version>4.15.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>Microsoft BotBuilder Java SDK Parent</name>
+  <name>Microsoft BotBuilder Java SDK Parent (Fork)</name>
   <description>This package contains the parent module of Microsoft BotBuilder Java SDK.</description>
-  <url>https://github.com/Microsoft/botbuilder-java</url>
+  <url>https://github.com/ekgns33/botbuilder-java</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -45,9 +45,9 @@
   </developers>
 
   <scm>
-    <connection>scm:git:https://github.com/Microsoft/botbuilder-java</connection>
-    <developerConnection>scm:git:https://github.com/Microsoft/botbuilder-java</developerConnection>
-    <url>https://github.com/Microsoft/botbuilder-java</url>
+    <connection>scm:git:https://github.com/ekgns33/botbuilder-java</connection>
+    <developerConnection>scm:git:https://github.com/ekgns33/botbuilder-java</developerConnection>
+    <url>https://github.com/ekgns33/botbuilder-java</url>
   </scm>
 
   <profiles>
@@ -382,47 +382,47 @@
       </dependency>
 
       <dependency>
-        <groupId>com.microsoft.bot</groupId>
+        <groupId>${project.groupId}</groupId>
         <artifactId>bot-schema</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.microsoft.bot</groupId>
+        <groupId>${project.groupId}</groupId>
         <artifactId>bot-connector</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.microsoft.bot</groupId>
+        <groupId>${project.groupId}</groupId>
         <artifactId>bot-integration-core</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.microsoft.bot</groupId>
+        <groupId>${project.groupId}</groupId>
         <artifactId>bot-integration-spring</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.microsoft.bot</groupId>
+        <groupId>${project.groupId}</groupId>
         <artifactId>bot-builder</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.microsoft.bot</groupId>
+        <groupId>${project.groupId}</groupId>
         <artifactId>bot-dialogs</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.microsoft.bot</groupId>
+        <groupId>${project.groupId}</groupId>
         <artifactId>bot-ai-luis-v3</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.microsoft.bot</groupId>
+        <groupId>${project.groupId}</groupId>
         <artifactId>bot-applicationinsights</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.microsoft.bot</groupId>
+        <groupId>${project.groupId}</groupId>
         <artifactId>bot-ai-qna</artifactId>
         <version>${project.version}</version>
       </dependency>

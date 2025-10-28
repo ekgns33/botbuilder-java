@@ -4,8 +4,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.microsoft.bot</groupId>
-    <artifactId>bot-java</artifactId>
+    <groupId>com.github.ekgns33</groupId>
+    <artifactId>botbuilder-java</artifactId>
     <version>4.15.0-SNAPSHOT</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
@@ -136,7 +136,7 @@
     </dependency>
 
     <dependency>
-      <groupId>com.microsoft.bot</groupId>
+      <groupId>${project.groupId}</groupId>
       <artifactId>bot-schema</artifactId>
     </dependency>
   </dependencies>
